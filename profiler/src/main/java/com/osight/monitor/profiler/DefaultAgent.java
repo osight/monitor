@@ -8,9 +8,10 @@ import com.osight.monitor.core.Agent;
  * @version $Id$
  */
 public class DefaultAgent implements Agent {
+    private final AgentOption agentOption;
 
     public DefaultAgent(AgentOption agentOption) {
-
+        this.agentOption = agentOption;
     }
 
 
